@@ -1,0 +1,17 @@
+<section>
+    <div>
+        <h1>Board Section:</h1>
+        <input type="text" placeholder={{tab.try}}>
+    <div class="row">
+        <ul class="container col-md-11 col-md-offset-1">
+            <li class=" well col-md-3" style="background:{{tablero.color}} " ng-repeat="tablero in tableros">
+                    {{tablero.nombre_tablero}} + {{tab.try}}
+            </li>
+            <li class=" well col-md-3" style="background:gray">
+                    Crea un nuevo tablero..
+            </li>
+        </ul>
+    </div>
+
+    </div>
+</section>

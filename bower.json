@@ -1,0 +1,24 @@
+{
+  "name": "mini-trello",
+  "version": "0.0.0",
+  "authors": [
+    "Jhony Benitez <jhonyben.94@gmail.com>"
+  ],
+  "description": "Mini Trello proyect",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "jquery-ui": "*",
+    "fontawesome": "*",
+    "bootstrap-sass": "*",
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "angular-marked": "^1.2.2"
+  }
+}

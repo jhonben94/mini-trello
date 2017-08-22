@@ -1,0 +1,30 @@
+<section>
+    <h3>Agregar Nuevo Tablero</h3>
+
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="sku" class="col-sm-2 control-label">Tablero:</label>
+            <div class="col-sm-4">
+                <input class="form-control" id="sku"
+                       ng-model="tablero.nombre_tablero" placeholder="TABLERO"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="description" class="col-sm-2 control-label">Descripcion:</label>
+            <div class="col-sm-4">
+                <input class="form-control" id="description"
+                       ng-model="tablero.descripcion" placeholder="DESCRIPCION"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-sm-offset-2 col-sm-10">
+                <a ng-click="agregarTablero()" class="btn btn-small btn-primary">Add</a>
+            </div>
+        </div>
+    </form>
+    </div>
+
+</section>
